@@ -26,7 +26,19 @@ form{
 	font-size: 5rem;
 }
 .bg_gif{
-	background-image: url('../img/bg.gif');
+	background-image: url('../img/bg2.gif');
+  background-size:cover;
+	position: relative;
+}
+.text__title{
+	position: absolute;
+	left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 60px;
+}
+.clip_gif{
+	background-image: url('../img/clip.gif');
   background-size:cover;
 }
 form input{
@@ -61,7 +73,7 @@ form label{
 	cursor: pointer;
 }
 .title-contact{
-	font-size: 8rem;
+	font-size: 7rem;
 }
 
 .contact{
@@ -88,8 +100,8 @@ form label{
 		font-size: 3rem;
 	}
 	.title_video{
-		font-size: 4rem;
-		margin: 0px 10px;
+		font-size: 2.5rem;
+		margin: 15px;
 	}
 	/* .button{
 		width: 100%;
