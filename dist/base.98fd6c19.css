@@ -26,8 +26,21 @@ form{
 	font-size: 5rem;
 }
 .bg_gif{
-	background-image: url('bg.19d751c9.gif');
+	background-image: url('bg2.fb0a40ee.gif');
   background-size:cover;
+	position: relative;
+}
+.text__title{
+	position: absolute;
+	left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 60px;
+}
+.clip_gif{
+	background-image: url('clip.dc81670e.gif');
+  background-size:cover;
+	text-align: center;
 }
 form input{
 	border-left: none;
@@ -37,6 +50,11 @@ form input{
 	padding: 20px 10px;
 	margin-top: 10px;
 	background: none;
+}
+form textarea{
+	border: 1px solid #282828;
+	background-color: none;
+	text-align: left;
 }
 .title_video{
 	text-align: center;
@@ -61,7 +79,7 @@ form label{
 	cursor: pointer;
 }
 .title-contact{
-	font-size: 8rem;
+	font-size: 7rem;
 }
 
 .contact{
@@ -88,8 +106,8 @@ form label{
 		font-size: 3rem;
 	}
 	.title_video{
-		font-size: 4rem;
-		margin: 0px 10px;
+		font-size: 2.5rem;
+		margin: 15px;
 	}
 	/* .button{
 		width: 100%;
